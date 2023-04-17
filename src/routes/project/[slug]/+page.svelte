@@ -97,7 +97,13 @@
         </a>
       {/if}
     </div>
-    <div class="projectItem">
+    <div class="projectItem video">
+      <a class="playBtn" href="{data.youtube}" target=”_blank”> 
+        <svg class="play" width="120" height="120" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.707107" y="36" width="49.9117" height="49.9117" rx="24.9558" transform="rotate(-45 0.707107 36)" fill="#3A96A3" fill-opacity="0.80" stroke="#ECC977"/>
+					<path d="M39 36L35 33V39L39 36Z" fill="#ECC977" stroke="#ECC977" stroke-linejoin="round"/>
+        </svg>
+      </a>
        <img src={`http://drive.google.com/uc?export=view&id=${data.image}`} alt="image">
     </div>
   </div>
@@ -105,6 +111,20 @@
 </div>
  
 <style>
+  .play:hover{
+   scale: 1.3; 
+  }
+
+  .video{
+    position: relative;
+  }
+  .playBtn{
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   rect{
     fill: #ECE8E1;
   }
