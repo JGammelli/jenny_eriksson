@@ -136,8 +136,8 @@
 	}
 	.pointer{
 		position: absolute;
-		bottom: .8vw;
-		right: 1.8vw;
+		bottom: .7vw;
+		right: 1.7vw;
   		transform: scaleX(-1);
 	}
 	.svgPointer:hover{
@@ -176,7 +176,7 @@
 		}
 		.pointer{
 			bottom: 0;
-			right:  0;
+			right:  .5vw;
 			scale: .5;
 		}
 	
@@ -191,6 +191,17 @@
 		}
 		audio{
 			margin-top: 7rem;
+			scale: .5;
+		}
+		.pointer{
+			position: absolute;
+			bottom: .8vw;
+			right: 1.8vw;
+			transform: scaleX(-1);
+		}
+		.pointer{
+			bottom: 0;
+			right:  .3vw;
 			scale: .5;
 		}
 	}
