@@ -121,7 +121,7 @@
 		height: 100%;
 	}
 	.svg{
-		background: url('src/svg/Box.svg') no-repeat;
+		background: url('https://docs.google.com/uc?export=download&id=1qBsdfRtecC80wb4Y5zmMeJuySzmb30Z5') no-repeat;
 		position: relative;
 		background-size: cover;
 		height: 100%;

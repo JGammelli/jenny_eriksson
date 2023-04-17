@@ -10,7 +10,7 @@
     <div class="navigator">
         <nav>
             <div class="navPointer">
-                {#if $page.url.toString() === 'http://localhost:5173/about'}
+                {#if $page.url.toString() === 'https://jennyeriksson.netlify.app/about'}
                     <svg width="1264" height="200" viewBox="0 0 1264 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1182.12 58.9105C1189.24 22.2523 1272.01 30.052 1247.5 75.3697C1220.48 125.335 1049.06 126.5 1010 126.5" stroke="white"/>
                         <path d="M81.8833 59.0408C74.7557 22.3826 -8.00589 30.1823 16.4999 75.5C43.5192 125.466 214.936 126.5 254 126.5" stroke="white"/>
@@ -22,7 +22,7 @@
                         <circle cx="380.5" cy="146.5" r="4" stroke="white"/>
                     </svg> 
                     {:else}
-                        {#if $page.url.toString() === 'http://localhost:5173/contact'}                           
+                        {#if $page.url.toString() === 'https://jennyeriksson.netlify.app/contact'}                           
                             <svg width="1264" height="200" viewBox="0 0 1264 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1182.12 58.9105C1189.24 22.2523 1272.01 30.052 1247.5 75.3697C1220.48 125.335 1049.06 126.5 1010 126.5" stroke="white"/>
                                 <path d="M81.8833 59.0408C74.7557 22.3826 -8.00589 30.1823 16.4999 75.5C43.5192 125.466 214.936 126.5 254 126.5" stroke="white"/>
@@ -49,9 +49,9 @@
                 {/if}                   
             </div>
             <ul>
-                <li><a href="/about" style={`color:${($page.url.toString() === 'http://localhost:5173/about') ? '#ECC977' : ''}`}>ABOUT</a></li>
-                <li><a href="/" style={`color:${($page.url.toString() === 'http://localhost:5173/') ? '#ECC977' : ''}`}>PORTFOLIO</a></li>
-                <li><a href="/contact" style={`color:${($page.url.toString() === 'http://localhost:5173/contact') ? '#ECC977' : ''}`}>CONTACT</a></li>
+                <li><a href="/about" style={`color:${($page.url.toString() === 'https://jennyeriksson.netlify.app/about') ? '#ECC977' : ''}`}>ABOUT</a></li>
+                <li><a href="/" style={`color:${($page.url.toString() === 'https://jennyeriksson.netlify.app/') ? '#ECC977' : ''}`}>PORTFOLIO</a></li>
+                <li><a href="/contact" style={`color:${($page.url.toString() === 'https://jennyeriksson.netlify.app/contact') ? '#ECC977' : ''}`}>CONTACT</a></li>
             </ul>
         </nav>
     </div>
