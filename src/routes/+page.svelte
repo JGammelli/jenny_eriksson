@@ -88,7 +88,7 @@
 		all: unset;
 	}
 	.playBtn{
-		margin-top: 6rem;
+		margin-top: 3vw;
 		scale: 1.5;
 	}
 	.playBtn:hover{
@@ -156,7 +156,7 @@
 	}
 
 	
-	@media (max-width: 1024px) {
+	@media (max-width: 1624px) {
 	
 		.text{
 			position: absolute;
@@ -176,10 +176,14 @@
 			scale: .5;
 		}
 	
-	@media (max-width: 780px) {
+	@media (max-width: 980px) {
 
 		.text h2 a{
 			font-size: .7rem;
+		}
+		.playBtn{
+			margin-top: 2vw;
+			scale: .9;
 		}
 	}
 }

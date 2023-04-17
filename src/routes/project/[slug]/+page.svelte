@@ -117,9 +117,10 @@
 
   .video{
     position: relative;
+    min-width: 574px;
+    max-width: 725px;
   }
   .playBtn{
-    position: absolute;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -147,6 +148,7 @@
   .content{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    min-width: 563px;
   }
   .roles{
     display: flex;
@@ -192,7 +194,7 @@
   .link{
     color: #ECC977;
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1875px) {
     .projectContainer{
       flex-direction: column;
       width: 100%;
