@@ -98,12 +98,21 @@
       {/if}
     </div>
     <div class="projectItem video">
-      <a class="playBtn" href="{data.youtube}" target=”_blank”> 
-        <svg class="play" width="120" height="120" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="0.707107" y="36" width="49.9117" height="49.9117" rx="24.9558" transform="rotate(-45 0.707107 36)" fill="#3A96A3" fill-opacity="0.80" stroke="#ECC977"/>
-					<path d="M39 36L35 33V39L39 36Z" fill="#ECC977" stroke="#ECC977" stroke-linejoin="round"/>
-        </svg>
-      </a>
+          {#if data.youtube}
+          <a class="playBtn" href="{data.youtube}" target=”_blank”> 
+            <svg class="play" width="120" height="120" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.707107" y="36" width="49.9117" height="49.9117" rx="24.9558" transform="rotate(-45 0.707107 36)" fill="#3A96A3" fill-opacity="0.80" stroke="#ECC977"/>
+              <path d="M39 36L35 33V39L39 36Z" fill="#ECC977" stroke="#ECC977" stroke-linejoin="round"/>
+            </svg>
+          </a>
+								{:else}
+								<audio  controls>
+									<source src="{`https://docs.google.com/uc?export=download&id=${data.link}`}" type="audio/ogg">
+									<!-- <source src="horse.mp3" type="audio/mpeg"> -->
+									  Your browser does not support the audio element.
+								</audio>
+							{/if}
+     
        <img src={`http://drive.google.com/uc?export=view&id=${data.image}`} alt="image">
     </div>
   </div>

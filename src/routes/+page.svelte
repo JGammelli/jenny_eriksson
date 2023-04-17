@@ -83,6 +83,7 @@
 <style>
 	audio{
 		margin-top: 6rem;
+		scale: .8;
 	}
 	button{
 		all: unset;
@@ -157,7 +158,10 @@
 
 	
 	@media (max-width: 1624px) {
-	
+			audio{
+			margin-top: 6rem;
+			scale: .5;
+		}
 		.text{
 			position: absolute;
 			bottom: 1vw;
@@ -184,6 +188,10 @@
 		.playBtn{
 			margin-top: 2vw;
 			scale: .9;
+		}
+		audio{
+			margin-top: 7rem;
+			scale: .5;
 		}
 	}
 }
