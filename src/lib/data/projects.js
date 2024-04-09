@@ -21,7 +21,9 @@ export const projects = [
     isProgram: false,
     programText: false,
     designText:
-      "",
+    `My first game project at The Game Assembly, you want to send a message through a paper plane to your friend, and you play as the paper plane, advancing through the japanese streets, avoiding obstables and picking up pickups that boost your speed and height.
+
+      Music was inspired by a mix of Japanese culture, and some old school game music from Nintendo 64 era, using instruments like koto and a japanese flute, while catching the old school game music style!`,
     youtube: "https://www.youtube.com/embed/9FAjrXiHSTQ",
     id: 18,
   },
@@ -33,7 +35,7 @@ export const projects = [
     isProgram: false,
     programText: false,
     designText:
-      "",
+    `Music was inspired by Final Fantasy VII and and some classic Zelda dungeons music, a happy theme outside and a somewhat darker theme inside the tree, to enhance the feeling of danger the closer you get to the crows nest.`,
     youtube: "https://www.youtube.com/embed/0OMPM7uGT9E",
     id: 17,
   },
@@ -45,7 +47,7 @@ export const projects = [
     isProgram: false,
     programText: false,
     designText:
-      "",
+    `Music based from old school Zelda classics, first is Zelda dungeon style, then music turns more dark with an organ and other accompanying instruments increasing their intensity until Death is reached. After meeting with death, he accidentally releases all other dead souls and have to quickly get up to ground level again, a more hasty kind of music accompanying his journey.`,
     youtube: "https://www.youtube.com/embed/6WZ1I_SSgNU",
     id: 16,
   },
@@ -57,7 +59,7 @@ export const projects = [
     isProgram: false,
     programText: false,
     designText:
-      "",
+    `This time I made music that I experimented with myself, instead of going the easy way of having scary sounds be the soundtrack, using synthesizers trying to explore feelings of desperation and sorrow.`,
     youtube: "https://www.youtube.com/embed/gCOvc511j9Y",
     id: 15,
   },
