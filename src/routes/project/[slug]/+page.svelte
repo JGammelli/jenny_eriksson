@@ -87,7 +87,7 @@
       {#if activeProgramming}
         <p class="content">{data.programText}</p>
         {:else}
-        <p class="content">{data.designText}</p>
+        <p class="content">{@html data.designText?.replace(/\*(.*?)\*/g, '</br>')}</p>
       {/if}
       
     </div>
