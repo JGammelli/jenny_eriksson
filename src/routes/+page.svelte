@@ -16,7 +16,7 @@
 		{#each projects as project}
             <div class="projectContainer">
 				<div class="project">
-					<div class="img" style= {`background: url('http://drive.google.com/uc?export=view&id=${project.image}') no-repeat; background-size: cover; background: "white";`}>
+					<div class="img" style= {`background: url('src/images/${project.image}') no-repeat; background-size: cover; background: "white";`}>
 						<div class="svg">	
 							
 
@@ -29,7 +29,7 @@
 								</a>
 								{:else}
 								<audio  controls>
-									<source src="{`https://docs.google.com/uc?export=download&id=${project.link}`}" type="audio/ogg">
+									<source src="{`src/music/${project.link}`}" type="audio/ogg">
 									<!-- <source src="horse.mp3" type="audio/mpeg"> -->
 									  Your browser does not support the audio element.
 								</audio>
@@ -122,7 +122,7 @@
 		height: 100%;
 	}
 	.svg{
-		background: url('https://docs.google.com/uc?export=download&id=1qBsdfRtecC80wb4Y5zmMeJuySzmb30Z5') no-repeat;
+		background: url('../svg/Box.svg') no-repeat;
 		position: relative;
 		background-size: cover;
 		height: 100%;

@@ -89,13 +89,7 @@
         {:else}
         <p class="content">{data.designText}</p>
       {/if}
-      {#if data.link !== undefined}
-        <a class="link" href="{data.link}" target="blank"> See more  
-          <svg width="16" height="6" viewBox="0 0 16 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.35935 2.99999H14.6407M14.6407 2.99999L12.3731 5.21354M14.6407 2.99999L12.3731 0.786438" stroke="#878787" stroke-linecap="round"/>
-          </svg>
-        </a>
-      {/if}
+      
     </div>
     <div class="projectItem video">
           {#if data.youtube}
@@ -107,13 +101,13 @@
           </a>
 								{:else}
 								<audio  controls>
-									<source src="{`https://docs.google.com/uc?export=download&id=${data.link}`}" type="audio/ogg">
+									<source src="{`../src/music/${data.link}`}" type="audio/ogg">
 									<!-- <source src="horse.mp3" type="audio/mpeg"> -->
 									  Your browser does not support the audio element.
 								</audio>
 							{/if}
      
-       <img src={`http://drive.google.com/uc?export=view&id=${data.image}`} alt="image">
+       <img src={`../src/images/${data.image}`} alt="image">
     </div>
   </div>
   

@@ -113,7 +113,7 @@
 	:global(body){
 		background-color: #459BA8;
 		color: #ECE8E1;
-        background: url('http://drive.google.com/uc?export=view&id=1FQkVMTUCcz4lucvgNcVJIg8NwSXQHKOE') no-repeat;
+        background: url('../images/background.jpg') no-repeat;
         background-size: cover;
 
 	}
