@@ -5,7 +5,7 @@ import { about } from '$lib/data/projects';
 <div>
     <h2>{about.title}</h2>
     <p>{about.content}</p>
-    <img src={`src/images/${about.image}`} alt="Profile">
+    <img src={`/images/${about.image}`} alt="Profile">
 </div>
 
 <style>

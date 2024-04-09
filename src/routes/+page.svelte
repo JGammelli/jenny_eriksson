@@ -16,7 +16,7 @@
 		{#each projects as project}
             <div class="projectContainer">
 				<div class="project">
-					<div class="img" style= {`background: url('src/images/${project.image}') no-repeat; background-size: cover; background: "white";`}>
+					<div class="img" style= {`background: url('images/${project.image}') no-repeat; background-size: cover; background: "white";`}>
 						<div class="svg">	
 							
 
@@ -29,7 +29,7 @@
 								</a>
 								{:else}
 								<audio  controls>
-									<source src="{`src/music/${project.link}`}" type="audio/ogg">
+									<source src="{`music/${project.link}`}" type="audio/ogg">
 									<!-- <source src="horse.mp3" type="audio/mpeg"> -->
 									  Your browser does not support the audio element.
 								</audio>

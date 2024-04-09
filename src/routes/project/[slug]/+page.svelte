@@ -101,13 +101,13 @@
           </a>
 								{:else}
 								<audio  controls>
-									<source src="{`../src/music/${data.link}`}" type="audio/ogg">
+									<source src="{`/music/${data.link}`}" type="audio/ogg">
 									<!-- <source src="horse.mp3" type="audio/mpeg"> -->
 									  Your browser does not support the audio element.
 								</audio>
 							{/if}
      
-       <img src={`../src/images/${data.image}`} alt="image">
+       <img src={`/images/${data.image}`} alt="image">
     </div>
   </div>
   
