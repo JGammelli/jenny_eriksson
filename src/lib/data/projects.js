@@ -16,7 +16,7 @@ export const projects = [
   {
     title: "Chase The Wind Collection",
     content: ``,
-    image: ``,
+    image: `wind.png`,
     isDesign: true,
     isProgram: false,
     programText: false,
@@ -30,7 +30,7 @@ export const projects = [
   {
     title: "A Bugged Adventure Collection",
     content: ``,
-    image: ``,
+    image: `bugg.png`,
     isDesign: true,
     isProgram: false,
     programText: false,
@@ -42,7 +42,7 @@ export const projects = [
   {
     title: "Donkey's Inferno Collection",
     content: ``,
-    image: ``,
+    image: `donkey.png`,
     isDesign: true,
     isProgram: false,
     programText: false,
@@ -54,7 +54,7 @@ export const projects = [
   {
     title: "Redemption Collection",
     content: ``,
-    image: ``,
+    image: `redemption.png`,
     isDesign: true,
     isProgram: false,
     programText: false,
